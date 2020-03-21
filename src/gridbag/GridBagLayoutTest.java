@@ -14,7 +14,7 @@ public class GridBagLayoutTest
    {
       EventQueue.invokeLater(() ->           {
           FontFrame frame = new FontFrame();
-          frame.setTitle("GridBagLayoutTest");
+          frame.setTitle("Bruce's Test");
                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                frame.setVisible(true);
          });

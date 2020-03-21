@@ -76,7 +76,7 @@ public class FontFrame extends JFrame
    {
       String fontFace = (String) face.getSelectedItem();
       int fontStyle = (bold.isSelected() ? Font.BOLD : 0)
-         + (italic.isSelected() ? Font.ITALIC : 0);
+              + (italic.isSelected() ? Font.ITALIC : 0);
       int fontSize = size.getItemAt(size.getSelectedIndex());
       Font font = new Font(fontFace, fontStyle, fontSize);
       sample.setFont(font);
